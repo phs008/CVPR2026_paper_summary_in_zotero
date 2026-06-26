@@ -545,6 +545,26 @@ def classify_paper_with_keywords(paper: dict[str, Any], text_excerpt: str = "") 
     }
 
 
+def classification_from_metadata(paper: dict[str, Any]) -> dict[str, Any] | None:
+    primary = normalize_category(paper.get("primary_category"))
+    if not primary:
+        return None
+    secondary: list[str] = []
+    for raw in paper.get("secondary_categories") or []:
+        category = normalize_category(raw)
+        if category and category != primary and category not in secondary:
+            secondary.append(category)
+        if len(secondary) >= 2:
+            break
+    return {
+        "primary_category": primary,
+        "secondary_categories": secondary,
+        "confidence": float(paper.get("confidence") or 1.0),
+        "reason": str(paper.get("reason") or "Category already present in paper metadata."),
+        "category_source": "metadata",
+    }
+
+
 def text_excerpt_for_paper(paper: dict[str, Any], text_dir: Path) -> str:
     cache_slug = f"{paper['index']:04d}-{slugify(paper['title'])}"
     txt_path = text_dir / f"{cache_slug}.txt"
@@ -558,8 +578,22 @@ def classify_paper(paper: dict[str, Any], args: argparse.Namespace) -> dict[str,
     if args.category_classifier == "codex":
         response = codex_completion(args.model, category_prompt(paper, text_excerpt), args.codex)
         classification = parse_category_response(response)
-    else:
+        classification["category_source"] = "codex"
+    elif args.category_classifier == "keywords":
         classification = classify_paper_with_keywords(paper, text_excerpt)
+        classification["category_source"] = "keywords"
+    else:
+        classification = classification_from_metadata(paper)
+        if not classification:
+            keyword_classification = classify_paper_with_keywords(paper, text_excerpt)
+            threshold = getattr(args, "hybrid_confidence_threshold", 0.7)
+            if keyword_classification["confidence"] >= threshold:
+                classification = keyword_classification
+                classification["category_source"] = "keywords"
+            else:
+                response = codex_completion(args.model, category_prompt(paper, text_excerpt), args.codex)
+                classification = parse_category_response(response)
+                classification["category_source"] = "hybrid_codex"
     return {**paper, **classification}
 
 
@@ -1008,7 +1042,13 @@ def main() -> None:
     parser.add_argument("--text-dir", type=Path, default=Path("data/text"))
     parser.add_argument("--categories-path", type=Path, default=DEFAULT_CATEGORIES_PATH)
     parser.add_argument("--categories", help="Semicolon-separated official CVPR categories to select")
-    parser.add_argument("--category-classifier", choices=["codex", "keywords"], default="codex")
+    parser.add_argument("--category-classifier", choices=["hybrid", "codex", "keywords"], default="hybrid")
+    parser.add_argument(
+        "--hybrid-confidence-threshold",
+        type=float,
+        default=0.7,
+        help="Use Codex in hybrid mode when keyword confidence is below this value.",
+    )
     parser.add_argument("--category-overwrite", action="store_true")
     parser.add_argument("--zotero-dir", type=Path, default=DEFAULT_ZOTERO_DIR)
     parser.add_argument("--pdftotext", help="Path to pdftotext executable. Overrides PATH lookup.")
