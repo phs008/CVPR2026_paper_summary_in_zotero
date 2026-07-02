@@ -1,0 +1,715 @@
+[
+  {
+    "index": 1,
+    "title": "Generalizable Structure-Aware Keypoint Correspondence for Category-Unified 3D Single Object Tracking",
+    "authors": [
+      "Jie Xiao",
+      "Yinchao Ma",
+      "Yuyang Tang",
+      "Dengqing Yang",
+      "Jianpeng Yang",
+      "Xu Zhou",
+      "Qiao Li",
+      "Wenfei Yang",
+      "Tianzhu Zhang"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_Generalizable_Structure-Aware_Keypoint_Correspondence_for_Category-Unified_3D_Single_Object_Tracking_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_Generalizable_Structure-Aware_Keypoint_Correspondence_for_Category-Unified_3D_Single_Object_Tracking_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Xiao_Generalizable_Structure-Aware_Keypoint_CVPR_2026_supplemental.pdf",
+    "pages": "28156-28166",
+    "bibtex": "@InProceedings{Xiao_2026_CVPR,\n    author    = {Xiao, Jie and Ma, Yinchao and Tang, Yuyang and Yang, Dengqing and Yang, Jianpeng and Zhou, Xu and Li, Qiao and Yang, Wenfei and Zhang, Tianzhu},\n    title     = {Generalizable Structure-Aware Keypoint Correspondence for Category-Unified 3D Single Object Tracking},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {28156-28166}\n}",
+    "primary_category": "Video: Low-level analysis, motion, and tracking",
+    "secondary_categories": [
+      "3D from multi-view and sensors",
+      "Autonomous driving"
+    ],
+    "confidence": 0.88,
+    "reason": "The paper focuses on 3D single object tracking in point clouds, evaluated on autonomous-driving benchmarks.",
+    "category_source": "codex"
+  },
+  {
+    "index": 2,
+    "title": "DirectFisheye-GS: Enabling Native Fisheye Input in Gaussian Splatting with Cross-View Joint Optimization",
+    "authors": [
+      "Zhengxian Yang",
+      "Fei Xie",
+      "Xutao Xue",
+      "Rui Zhang",
+      "Taicheng Huang",
+      "Yang Liu",
+      "Mengqi Ji",
+      "Tao Yu"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_DirectFisheye-GS_Enabling_Native_Fisheye_Input_in_Gaussian_Splatting_with_Cross-View_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_DirectFisheye-GS_Enabling_Native_Fisheye_Input_in_Gaussian_Splatting_with_Cross-View_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Yang_DirectFisheye-GS_Enabling_Native_CVPR_2026_supplemental.zip",
+    "pages": "4942-4952",
+    "bibtex": "@InProceedings{Yang_2026_CVPR,\n    author    = {Yang, Zhengxian and Xie, Fei and Xue, Xutao and Zhang, Rui and Huang, Taicheng and Liu, Yang and Ji, Mengqi and Yu, Tao},\n    title     = {DirectFisheye-GS: Enabling Native Fisheye Input in Gaussian Splatting with Cross-View Joint Optimization},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {4942-4952}\n}",
+    "primary_category": "3D from multi-view and sensors",
+    "secondary_categories": [
+      "Vision + graphics",
+      "Computational imaging"
+    ],
+    "confidence": 0.92,
+    "reason": "The paper focuses on multi-view 3D Gaussian Splatting reconstruction from native fisheye camera inputs with rendering-oriented optimization.",
+    "category_source": "codex"
+  },
+  {
+    "index": 3,
+    "title": "CompBench: Benchmarking Complex Instruction-guided Image Editing",
+    "authors": [
+      "Bohan Jia",
+      "Wenxuan Huang",
+      "Yuntian Tang",
+      "Junbo Qiao",
+      "Jincheng Liao",
+      "Shaosheng Cao",
+      "Fei Zhao",
+      "Zhaopeng Feng",
+      "Zhouhong Gu",
+      "Zhenfei Yin",
+      "Lei Bai",
+      "Wanli Ouyang",
+      "Lin Chen",
+      "Fei Zhao",
+      "Zihan Wang",
+      "Yuan Xie",
+      "Shaohui Lin"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_CompBench_Benchmarking_Complex_Instruction-guided_Image_Editing_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_CompBench_Benchmarking_Complex_Instruction-guided_Image_Editing_CVPR_2026_paper.pdf",
+    "supp_url": null,
+    "pages": "1112-1122",
+    "bibtex": "@InProceedings{Jia_2026_CVPR,\n    author    = {Jia, Bohan and Huang, Wenxuan and Tang, Yuntian and Qiao, Junbo and Liao, Jincheng and Cao, Shaosheng and Zhao, Fei and Feng, Zhaopeng and Gu, Zhouhong and Yin, Zhenfei and Bai, Lei and Ouyang, Wanli and Chen, Lin and Zhao, Fei and Wang, Zihan and Xie, Yuan and Lin, Shaohui},\n    title     = {CompBench: Benchmarking Complex Instruction-guided Image Editing},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {1112-1122}\n}",
+    "primary_category": "Datasets and evaluation",
+    "secondary_categories": [
+      "Image and video synthesis and generation",
+      "Vision, language, and reasoning"
+    ],
+    "confidence": 0.93,
+    "reason": "The paper introduces CompBench, a benchmark for evaluating complex instruction-guided image editing models.",
+    "category_source": "codex"
+  },
+  {
+    "index": 4,
+    "title": "Choreographing a World of Dynamic Objects",
+    "authors": [
+      "Yanzhe Lyu",
+      "Chen Geng",
+      "Karthik Dharmarajan",
+      "Yunzhi Zhang",
+      "Hadi Alzayer",
+      "Shangzhe Wu",
+      "Jiajun Wu"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lyu_Choreographing_a_World_of_Dynamic_Objects_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lyu_Choreographing_a_World_of_Dynamic_Objects_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Lyu_Choreographing_a_World_CVPR_2026_supplemental.pdf",
+    "pages": "32647-32658",
+    "bibtex": "@InProceedings{Lyu_2026_CVPR,\n    author    = {Lyu, Yanzhe and Geng, Chen and Dharmarajan, Karthik and Zhang, Yunzhi and Alzayer, Hadi and Wu, Shangzhe and Wu, Jiajun},\n    title     = {Choreographing a World of Dynamic Objects},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {32647-32658}\n}",
+    "primary_category": "Image and video synthesis and generation",
+    "secondary_categories": [
+      "Vision + graphics",
+      "Computer Vision for Robotics"
+    ],
+    "confidence": 0.86,
+    "reason": "동적 4D 객체와 장면을 생성하는 범용 생성 파이프라인이 핵심이며 로보틱스 조작 정책 응용도 포함합니다.",
+    "category_source": "codex"
+  },
+  {
+    "index": 5,
+    "title": "Spk2VidNet: A Hierarchical Recurrent Architecture for High-Fidelity Video Reconstruction from Long Spike-Camera Streams",
+    "authors": [
+      "Yuanlin Wang",
+      "Ruiqin Xiong",
+      "Jiyu Xie",
+      "Zhenkun Zhu",
+      "Zhaofei Yu",
+      "Xiaopeng Fan",
+      "Tiejun Huang"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Spk2VidNet_A_Hierarchical_Recurrent_Architecture_for_High-Fidelity_Video_Reconstruction_from_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Spk2VidNet_A_Hierarchical_Recurrent_Architecture_for_High-Fidelity_Video_Reconstruction_from_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Wang_Spk2VidNet_A_Hierarchical_CVPR_2026_supplemental.zip",
+    "pages": "12140-12149",
+    "bibtex": "@InProceedings{Wang_2026_CVPR,\n    author    = {Wang, Yuanlin and Xiong, Ruiqin and Xie, Jiyu and Zhu, Zhenkun and Yu, Zhaofei and Fan, Xiaopeng and Huang, Tiejun},\n    title     = {Spk2VidNet: A Hierarchical Recurrent Architecture for High-Fidelity Video Reconstruction from Long Spike-Camera Streams},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {12140-12149}\n}",
+    "primary_category": "Event-based cameras",
+    "secondary_categories": [
+      "Low-level vision",
+      "Video: Low-level analysis, motion, and tracking"
+    ],
+    "confidence": 0.9,
+    "reason": "The paper reconstructs high-resolution video from long spike-camera streams, a neuromorphic/event-style sensing modality with low-level video restoration goals.",
+    "category_source": "codex"
+  },
+  {
+    "index": 6,
+    "title": "Continual Distillation of Teachers from Different Domains",
+    "authors": [
+      "Nicolas Michel",
+      "Maorong Wang",
+      "Jiangpeng He",
+      "Toshihiko Yamasaki"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Michel_Continual_Distillation_of_Teachers_from_Different_Domains_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Michel_Continual_Distillation_of_Teachers_from_Different_Domains_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Michel_Continual_Distillation_of_CVPR_2026_supplemental.pdf",
+    "pages": "10810-10819",
+    "bibtex": "@InProceedings{Michel_2026_CVPR,\n    author    = {Michel, Nicolas and Wang, Maorong and He, Jiangpeng and Yamasaki, Toshihiko},\n    title     = {Continual Distillation of Teachers from Different Domains},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {10810-10819}\n}",
+    "primary_category": "Transfer/ low-shot/ continual/ long-tail learning",
+    "secondary_categories": [
+      "Self-, semi-, meta- and unsupervised learning",
+      "Deep learning architectures and techniques"
+    ],
+    "confidence": 0.92,
+    "reason": "The paper proposes continual knowledge distillation across sequential teacher models and studies forgetting and transfer across domains.",
+    "category_source": "codex"
+  },
+  {
+    "index": 7,
+    "title": "GT-SVJ: Generative-Transformer-Based Self-Supervised Video Judge For Efficient Video Reward Modeling",
+    "authors": [
+      "Shivanshu Shekhar",
+      "Uttaran Bhattacharya",
+      "Raghavendra Addanki",
+      "Mehrab Tanjim",
+      "Somdeb Sarkhel",
+      "Tong Zhang"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shekhar_GT-SVJ_Generative-Transformer-Based_Self-Supervised_Video_Judge_For_Efficient_Video_Reward_Modeling_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shekhar_GT-SVJ_Generative-Transformer-Based_Self-Supervised_Video_Judge_For_Efficient_Video_Reward_Modeling_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Shekhar_GT-SVJ_Generative-Transformer-Based_Self-Supervised_CVPR_2026_supplemental.zip",
+    "pages": "9847-9858",
+    "bibtex": "@InProceedings{Shekhar_2026_CVPR,\n    author    = {Shekhar, Shivanshu and Bhattacharya, Uttaran and Addanki, Raghavendra and Tanjim, Mehrab and Sarkhel, Somdeb and Zhang, Tong},\n    title     = {GT-SVJ: Generative-Transformer-Based Self-Supervised Video Judge For Efficient Video Reward Modeling},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {9847-9858}\n}",
+    "primary_category": "Image and video synthesis and generation",
+    "secondary_categories": [
+      "Self-, semi-, meta- and unsupervised learning",
+      "Representation learning"
+    ],
+    "confidence": 0.86,
+    "reason": "비디오 생성 모델을 보상 모델로 재활용하고 self-supervised contrastive 학습으로 비디오 품질을 평가하는 논문입니다.",
+    "category_source": "codex"
+  },
+  {
+    "index": 8,
+    "title": "Beyond Euclidean Gossip: KL-Barycentric Consensus on Heterogeneous and Imbalanced Images",
+    "authors": [
+      "Lu Xu",
+      "Guosheng Yin"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Beyond_Euclidean_Gossip_KL-Barycentric_Consensus_on_Heterogeneous_and_Imbalanced_Images_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Beyond_Euclidean_Gossip_KL-Barycentric_Consensus_on_Heterogeneous_and_Imbalanced_Images_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Xu_Beyond_Euclidean_Gossip_CVPR_2026_supplemental.pdf",
+    "pages": "6167-6175",
+    "bibtex": "@InProceedings{Xu_2026_CVPR,\n    author    = {Xu, Lu and Yin, Guosheng},\n    title     = {Beyond Euclidean Gossip: KL-Barycentric Consensus on Heterogeneous and Imbalanced Images},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {6167-6175}\n}",
+    "primary_category": "Efficient and scalable vision",
+    "secondary_categories": [
+      "Deep learning architectures and techniques",
+      "Computer vision theory"
+    ],
+    "confidence": 0.78,
+    "reason": "The paper proposes a decentralized optimization and consensus method for scalable deep learning on heterogeneous, imbalanced image data.",
+    "category_source": "codex"
+  },
+  {
+    "index": 9,
+    "title": "HybridDriveVLA: Vision-Language-Action Model with Visual CoT reasoning and ToT Evaluation for Autonomous Driving",
+    "authors": [
+      "Yipene Cedric Francois Bassole",
+      "Sungwoo Kim",
+      "Jiwoo Jung",
+      "Yunsick Sung"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bassole_HybridDriveVLA_Vision-Language-Action_Model_with_Visual_CoT_reasoning_and_ToT_Evaluation_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bassole_HybridDriveVLA_Vision-Language-Action_Model_with_Visual_CoT_reasoning_and_ToT_Evaluation_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Bassole_HybridDriveVLA_Vision-Language-Action_Model_CVPR_2026_supplemental.zip",
+    "pages": "32421-32430",
+    "bibtex": "@InProceedings{Bassole_2026_CVPR,\n    author    = {Bassole, Yipene Cedric Francois and Kim, Sungwoo and Jung, Jiwoo and Sung, Yunsick},\n    title     = {HybridDriveVLA: Vision-Language-Action Model with Visual CoT reasoning and ToT Evaluation for Autonomous Driving},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {32421-32430}\n}",
+    "primary_category": "Autonomous driving",
+    "secondary_categories": [
+      "Vision, language, and reasoning",
+      "Multimodal learning"
+    ],
+    "confidence": 0.95,
+    "reason": "The paper proposes a vision-language-action reasoning model specifically for autonomous driving trajectory planning and evaluation.",
+    "category_source": "codex"
+  },
+  {
+    "index": 10,
+    "title": "Training-free, Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models",
+    "authors": [
+      "Wongi Jeong",
+      "Hoigi Seo",
+      "Se Young Chun"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jeong_Training-free_Perceptually_Consistent_Low-Resolution_Previews_with_High-Resolution_Image_for_Efficient_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Training-free_Perceptually_Consistent_Low-Resolution_Previews_with_High-Resolution_Image_for_Efficient_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jeong_Training-free_Perceptually_Consistent_CVPR_2026_supplemental.pdf",
+    "pages": "4547-4557",
+    "bibtex": "@InProceedings{Jeong_2026_CVPR,\n    author    = {Jeong, Wongi and Seo, Hoigi and Chun, Se Young},\n    title     = {Training-free, Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {4547-4557}\n}",
+    "primary_category": "Image and video synthesis and generation",
+    "secondary_categories": [
+      "Efficient and scalable vision",
+      "Low-level vision"
+    ],
+    "confidence": 0.91,
+    "reason": "The paper proposes a training-free efficient preview generation method for diffusion-based high-resolution image synthesis workflows.",
+    "category_source": "codex"
+  },
+  {
+    "index": 11,
+    "title": "Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation",
+    "authors": [
+      "Shifeng Chen",
+      "Yihui Li",
+      "Jun Liao",
+      "Hongyu Yang",
+      "Di Huang"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Catalyst4D_High-Fidelity_3D-to-4D_Scene_Editing_via_Dynamic_Propagation_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Catalyst4D_High-Fidelity_3D-to-4D_Scene_Editing_via_Dynamic_Propagation_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Chen_Catalyst4D_High-Fidelity_3D-to-4D_CVPR_2026_supplemental.pdf",
+    "pages": "29792-29802",
+    "bibtex": "@InProceedings{Chen_2026_CVPR,\n    author    = {Chen, Shifeng and Li, Yihui and Liao, Jun and Yang, Hongyu and Huang, Di},\n    title     = {Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {29792-29802}\n}",
+    "primary_category": "Vision + graphics",
+    "secondary_categories": [
+      "Image and video synthesis and generation",
+      "3D from multi-view and sensors"
+    ],
+    "confidence": 0.86,
+    "reason": "3DGS/NeRF 기반 정적 3D 편집을 동적 4D 장면 편집으로 확장하는 신경 렌더링 및 장면 생성/편집 논문이다.",
+    "category_source": "codex"
+  },
+  {
+    "index": 12,
+    "title": "Cloning Deterministic Worlds: The Critical Role of Latent Geometry in Long-Horizon World Models",
+    "authors": [
+      "Zaishuo Xia",
+      "Yukuan Lu",
+      "Xinyi Li",
+      "Yifan Xu",
+      "Yubei Chen"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xia_Cloning_Deterministic_Worlds_The_Critical_Role_of_Latent_Geometry_in_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xia_Cloning_Deterministic_Worlds_The_Critical_Role_of_Latent_Geometry_in_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Xia_Cloning_Deterministic_Worlds_CVPR_2026_supplemental.pdf",
+    "pages": "32602-32612",
+    "bibtex": "@InProceedings{Xia_2026_CVPR,\n    author    = {Xia, Zaishuo and Lu, Yukuan and Li, Xinyi and Xu, Yifan and Chen, Yubei},\n    title     = {Cloning Deterministic Worlds: The Critical Role of Latent Geometry in Long-Horizon World Models},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {32602-32612}\n}",
+    "primary_category": "Embodied vision: Active agents, simulation",
+    "secondary_categories": [
+      "Representation learning",
+      "Self-, semi-, meta- and unsupervised learning"
+    ],
+    "confidence": 0.86,
+    "reason": "The paper studies world models for embodied agents and improves long-horizon prediction through latent representation geometry and contrastive regularization.",
+    "category_source": "codex"
+  },
+  {
+    "index": 13,
+    "title": "CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation",
+    "authors": [
+      "Ke Niu",
+      "Haiyang Yu",
+      "Zhuofan Chen",
+      "Zhengtao Yao",
+      "Weitao Jia",
+      "Xiaodong Ge",
+      "Jingqun Tang",
+      "Benlei Cui",
+      "Bin Li",
+      "Xiangyang Xue"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Niu_CME-CAD_Heterogeneous_Collaborative_Multi-Expert_Reinforcement_Learning_for_CAD_Code_Generation_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_CME-CAD_Heterogeneous_Collaborative_Multi-Expert_Reinforcement_Learning_for_CAD_Code_Generation_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Niu_CME-CAD_Heterogeneous_Collaborative_CVPR_2026_supplemental.pdf",
+    "pages": "39272-39281",
+    "bibtex": "@InProceedings{Niu_2026_CVPR,\n    author    = {Niu, Ke and Yu, Haiyang and Chen, Zhuofan and Yao, Zhengtao and Jia, Weitao and Ge, Xiaodong and Tang, Jingqun and Cui, Benlei and Li, Bin and Xue, Xiangyang},\n    title     = {CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {39272-39281}\n}",
+    "primary_category": "Vision + graphics",
+    "secondary_categories": [
+      "3D from multi-view and sensors",
+      "Vision, language, and reasoning"
+    ],
+    "confidence": 0.78,
+    "reason": "정사영 도면과 치수 주석을 바탕으로 편집 가능한 3D CAD 코드와 모델을 생성하는 비전-그래픽스 문제입니다.",
+    "category_source": "codex"
+  },
+  {
+    "index": 14,
+    "title": "Unique Lives, Shared World: Learning from Single-Life Videos",
+    "authors": [
+      "Tengda Han",
+      "Sayna Ebrahimi",
+      "Dilara Gokay",
+      "Li Yang Ku",
+      "Maks Ovsjanikov",
+      "Iva Babukova",
+      "Daniel Zoran",
+      "Viorica Patraucean",
+      "Joao Carreira",
+      "Andrew Zisserman",
+      "Dima Damen"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Unique_Lives_Shared_World_Learning_from_Single-Life_Videos_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Han_Unique_Lives_Shared_World_Learning_from_Single-Life_Videos_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Han_Unique_Lives_Shared_CVPR_2026_supplemental.pdf",
+    "pages": "24021-24030",
+    "bibtex": "@InProceedings{Han_2026_CVPR,\n    author    = {Han, Tengda and Ebrahimi, Sayna and Gokay, Dilara and Ku, Li Yang and Ovsjanikov, Maks and Babukova, Iva and Zoran, Daniel and Patraucean, Viorica and Carreira, Joao and Zisserman, Andrew and Damen, Dima},\n    title     = {Unique Lives, Shared World: Learning from Single-Life Videos},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {24021-24030}\n}",
+    "primary_category": "Self-, semi-, meta- and unsupervised learning",
+    "secondary_categories": [
+      "Representation learning",
+      "Video: Low-level analysis, motion, and tracking"
+    ],
+    "confidence": 0.86,
+    "reason": "The paper proposes self-supervised training of visual encoders from egocentric single-life videos to learn transferable geometric representations.",
+    "category_source": "codex"
+  },
+  {
+    "index": 15,
+    "title": "Quantized Residuals to Continuous Prompts for Few-Shot Class Incremental Learning in Vision-Language Models",
+    "authors": [
+      "Abhishek Kumar Sinha",
+      "Nitant Dube",
+      "Soma Biswas"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sinha_Quantized_Residuals_to_Continuous_Prompts_for_Few-Shot_Class_Incremental_Learning_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sinha_Quantized_Residuals_to_Continuous_Prompts_for_Few-Shot_Class_Incremental_Learning_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Sinha_Quantized_Residuals_to_CVPR_2026_supplemental.pdf",
+    "pages": "3856-3865",
+    "bibtex": "@InProceedings{Sinha_2026_CVPR,\n    author    = {Sinha, Abhishek Kumar and Dube, Nitant and Biswas, Soma},\n    title     = {Quantized Residuals to Continuous Prompts for Few-Shot Class Incremental Learning in Vision-Language Models},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {3856-3865}\n}",
+    "primary_category": "Transfer/ low-shot/ continual/ long-tail learning",
+    "secondary_categories": [
+      "Vision, language, and reasoning",
+      "Representation learning"
+    ],
+    "confidence": 0.92,
+    "reason": "The paper targets few-shot class-incremental learning in vision-language models using prompt adaptation and residual representations.",
+    "category_source": "codex"
+  },
+  {
+    "index": 16,
+    "title": "EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images",
+    "authors": [
+      "Jongmin Park",
+      "Minh-Quan Viet Bui",
+      "Juan Luis Gonzalez",
+      "Jaeho Moon",
+      "Jihyong Oh",
+      "Munchurl Kim"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bui_EcoSplat_Efficiency-controllable_Feed-forward_3D_Gaussian_Splatting_from_Multi-view_Images_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bui_EcoSplat_Efficiency-controllable_Feed-forward_3D_Gaussian_Splatting_from_Multi-view_Images_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Bui_EcoSplat_Efficiency-controllable_Feed-forward_CVPR_2026_supplemental.zip",
+    "pages": "26010-26020",
+    "bibtex": "@InProceedings{Park_2026_CVPR,\n    author    = {Park, Jongmin and Bui, Minh-Quan Viet and Gonzalez, Juan Luis and Moon, Jaeho and Oh, Jihyong and Kim, Munchurl},\n    title     = {EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {26010-26020}\n}",
+    "primary_category": "3D from multi-view and sensors",
+    "secondary_categories": [
+      "Efficient and scalable vision",
+      "Vision + graphics"
+    ],
+    "confidence": 0.94,
+    "reason": "The paper reconstructs 3D Gaussian Splatting scene representations from multi-view images with controllable efficiency for rendering.",
+    "category_source": "codex"
+  },
+  {
+    "index": 17,
+    "title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
+    "authors": [
+      "Chao Yuan",
+      "Shimin Chen",
+      "Minliang Lin",
+      "Limeng Qiao",
+      "Guanglu Wan",
+      "Lin Ma"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yuan_UniComp_Rethinking_Video_Compression_Through_Informational_Uniqueness_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yuan_UniComp_Rethinking_Video_Compression_Through_Informational_Uniqueness_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Yuan_UniComp_Rethinking_Video_CVPR_2026_supplemental.pdf",
+    "pages": "18609-18618",
+    "bibtex": "@InProceedings{Yuan_2026_CVPR,\n    author    = {Yuan, Chao and Chen, Shimin and Lin, Minliang and Qiao, Limeng and Wan, Guanglu and Ma, Lin},\n    title     = {UniComp: Rethinking Video Compression Through Informational Uniqueness},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {18609-18618}\n}",
+    "primary_category": "Efficient and scalable vision",
+    "secondary_categories": [
+      "Video: Low-level analysis, motion, and tracking",
+      "Deep learning architectures and techniques"
+    ],
+    "confidence": 0.86,
+    "reason": "비디오 표현의 토큰 중복성을 줄여 제한된 계산 예산에서 압축 효율을 높이는 방법이 핵심이다.",
+    "category_source": "codex"
+  },
+  {
+    "index": 18,
+    "title": "AD-GBC: Anisotropic Granular-Ball Skip-Connection Refiner for UNet-Based Medical Image Segmentation",
+    "authors": [
+      "Xiya Shen",
+      "Qinglin Zhao",
+      "Li Feng"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shen_AD-GBC_Anisotropic_Granular-Ball_Skip-Connection_Refiner_for_UNet-Based_Medical_Image_Segmentation_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_AD-GBC_Anisotropic_Granular-Ball_Skip-Connection_Refiner_for_UNet-Based_Medical_Image_Segmentation_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Shen_AD-GBC_Anisotropic_Granular-Ball_CVPR_2026_supplemental.pdf",
+    "pages": "1418-1427",
+    "bibtex": "@InProceedings{Shen_2026_CVPR,\n    author    = {Shen, Xiya and Zhao, Qinglin and Feng, Li},\n    title     = {AD-GBC: Anisotropic Granular-Ball Skip-Connection Refiner for UNet-Based Medical Image Segmentation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {1418-1427}\n}",
+    "primary_category": "Medical and biological vision, cell microscopy",
+    "secondary_categories": [
+      "Segmentation, grouping and shape analysis",
+      "Deep learning architectures and techniques"
+    ],
+    "confidence": 0.93,
+    "reason": "The paper proposes a UNet-based method specifically for medical image segmentation.",
+    "category_source": "codex"
+  },
+  {
+    "index": 19,
+    "title": "White-Balance First, Adjust Later: Cross-Camera Color Constancy via Vision-Language Evaluation",
+    "authors": [
+      "Shuwei Li",
+      "Lei Tan",
+      "Robby T. Tan"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_White-Balance_First_Adjust_Later_Cross-Camera_Color_Constancy_via_Vision-Language_Evaluation_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_White-Balance_First_Adjust_Later_Cross-Camera_Color_Constancy_via_Vision-Language_Evaluation_CVPR_2026_paper.pdf",
+    "supp_url": null,
+    "pages": "1331-1341",
+    "bibtex": "@InProceedings{Li_2026_CVPR,\n    author    = {Li, Shuwei and Tan, Lei and Tan, Robby T.},\n    title     = {White-Balance First, Adjust Later: Cross-Camera Color Constancy via Vision-Language Evaluation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {1331-1341}\n}",
+    "primary_category": "Low-level vision",
+    "secondary_categories": [
+      "Multimodal learning",
+      "Computational imaging"
+    ],
+    "confidence": 0.86,
+    "reason": "The paper addresses color constancy and white balance, a low-level image restoration/enhancement problem, using VLM feedback for cross-camera robustness.",
+    "category_source": "codex"
+  },
+  {
+    "index": 20,
+    "title": "Reallocating Attention Across Layers to Reduce Multimodal Hallucination",
+    "authors": [
+      "Haolang Lu",
+      "Bolun Chu",
+      "WeiYe Fu",
+      "Guoshun Nan",
+      "Junning Liu",
+      "Minghui Pan",
+      "Qiankun Li",
+      "Yi Yu",
+      "Hua Wang",
+      "Kun Wang"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_Reallocating_Attention_Across_Layers_to_Reduce_Multimodal_Hallucination_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_Reallocating_Attention_Across_Layers_to_Reduce_Multimodal_Hallucination_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Lu_Reallocating_Attention_Across_CVPR_2026_supplemental.pdf",
+    "pages": "4157-4167",
+    "bibtex": "@InProceedings{Lu_2026_CVPR,\n    author    = {Lu, Haolang and Chu, Bolun and Fu, WeiYe and Nan, Guoshun and Liu, Junning and Pan, Minghui and Li, Qiankun and Yu, Yi and Wang, Hua and Wang, Kun},\n    title     = {Reallocating Attention Across Layers to Reduce Multimodal Hallucination},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {4157-4167}\n}",
+    "primary_category": "Vision, language, and reasoning",
+    "secondary_categories": [
+      "Multimodal learning",
+      "Explainable computer vision"
+    ],
+    "confidence": 0.93,
+    "reason": "The paper targets hallucination reduction and reasoning reliability in multimodal large reasoning models via interpretable attention reallocation.",
+    "category_source": "codex"
+  },
+  {
+    "index": 21,
+    "title": "PanoEnv: Exploring 3D Spatial Intelligence in Panoramic Environments with Reinforcement Learning",
+    "authors": [
+      "Zekai Lin",
+      "Xu Zheng"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_PanoEnv_Exploring_3D_Spatial_Intelligence_in_Panoramic_Environments_with_Reinforcement_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lin_PanoEnv_Exploring_3D_Spatial_Intelligence_in_Panoramic_Environments_with_Reinforcement_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Lin_PanoEnv_Exploring_3D_CVPR_2026_supplemental.pdf",
+    "pages": "9647-9657",
+    "bibtex": "@InProceedings{Lin_2026_CVPR,\n    author    = {Lin, Zekai and Zheng, Xu},\n    title     = {PanoEnv: Exploring 3D Spatial Intelligence in Panoramic Environments with Reinforcement Learning},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {9647-9657}\n}",
+    "primary_category": "Vision, language, and reasoning",
+    "secondary_categories": [
+      "Embodied vision: Active agents, simulation",
+      "Datasets and evaluation"
+    ],
+    "confidence": 0.86,
+    "reason": "The paper benchmarks and improves VLM 3D spatial reasoning in panoramic synthetic environments using VQA data and reinforcement learning.",
+    "category_source": "codex"
+  },
+  {
+    "index": 22,
+    "title": "Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models",
+    "authors": [
+      "Hoigi Seo",
+      "Byung Hyun Lee",
+      "Jaehyun Cho",
+      "Sungjin Lim",
+      "Se Young Chun"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Seo_Erasing_Thousands_of_Concepts_Towards_Scalable_and_Practical_Concept_Erasure_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Seo_Erasing_Thousands_of_Concepts_Towards_Scalable_and_Practical_Concept_Erasure_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Seo_Erasing_Thousands_of_CVPR_2026_supplemental.pdf",
+    "pages": "10262-10272",
+    "bibtex": "@InProceedings{Seo_2026_CVPR,\n    author    = {Seo, Hoigi and Lee, Byung Hyun and Cho, Jaehyun and Lim, Sungjin and Chun, Se Young},\n    title     = {Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {10262-10272}\n}",
+    "primary_category": "Image and video synthesis and generation",
+    "secondary_categories": [
+      "Transparency, fairness, accountability, privacy and ethics in vision",
+      "Adversarial attack and defense"
+    ],
+    "confidence": 0.93,
+    "reason": "The paper develops scalable concept erasure for text-to-image diffusion generation, motivated by safety and robustness against attacks.",
+    "category_source": "codex"
+  },
+  {
+    "index": 23,
+    "title": "TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery",
+    "authors": [
+      "Yanan Wu",
+      "Yuhan Yan",
+      "Tailai Chen",
+      "Zhixiang Chi",
+      "ZiZhang Wu",
+      "Yi Jin",
+      "Yang Wang",
+      "Zhenbo Li"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_TALON_Test-time_Adaptive_Learning_for_On-the-Fly_Category_Discovery_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_TALON_Test-time_Adaptive_Learning_for_On-the-Fly_Category_Discovery_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Wu_TALON_Test-time_Adaptive_CVPR_2026_supplemental.pdf",
+    "pages": "22259-22269",
+    "bibtex": "@InProceedings{Wu_2026_CVPR,\n    author    = {Wu, Yanan and Yan, Yuhan and Chen, Tailai and Chi, Zhixiang and Wu, ZiZhang and Jin, Yi and Wang, Yang and Li, Zhenbo},\n    title     = {TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {22259-22269}\n}",
+    "primary_category": "Self-, semi-, meta- and unsupervised learning",
+    "secondary_categories": [
+      "Recognition: Categorization, detection, retrieval",
+      "Transfer/ low-shot/ continual/ long-tail learning"
+    ],
+    "confidence": 0.87,
+    "reason": "The paper focuses on discovering novel categories from unlabeled online streams via test-time adaptation while retaining known-category recognition.",
+    "category_source": "codex"
+  },
+  {
+    "index": 24,
+    "title": "SenseSearch: Empowering Vision-Language Models with High-Resolution Agentic Search-Reasoning via Reinforcement Learning",
+    "authors": [
+      "Yong Xien Chng",
+      "Tao Hu",
+      "Wenwen Tong",
+      "Xueheng Li",
+      "Jiandong Chen",
+      "Haojia Yu",
+      "Jiefan Lu",
+      "Hewei Guo",
+      "Hanming Deng",
+      "Chengjun Xie",
+      "Gao Huang",
+      "Lewei Lu"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chng_SenseSearch_Empowering_Vision-Language_Models_with_High-Resolution_Agentic_Search-Reasoning_via_Reinforcement_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chng_SenseSearch_Empowering_Vision-Language_Models_with_High-Resolution_Agentic_Search-Reasoning_via_Reinforcement_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Chng_SenseSearch_Empowering_Vision-Language_CVPR_2026_supplemental.pdf",
+    "pages": "26508-26517",
+    "bibtex": "@InProceedings{Chng_2026_CVPR,\n    author    = {Chng, Yong Xien and Hu, Tao and Tong, Wenwen and Li, Xueheng and Chen, Jiandong and Yu, Haojia and Lu, Jiefan and Guo, Hewei and Deng, Hanming and Xie, Chengjun and Huang, Gao and Lu, Lewei},\n    title     = {SenseSearch: Empowering Vision-Language Models with High-Resolution Agentic Search-Reasoning via Reinforcement Learning},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {26508-26517}\n}",
+    "primary_category": "Vision, language, and reasoning",
+    "secondary_categories": [
+      "Multimodal learning",
+      "Deep learning architectures and techniques"
+    ],
+    "confidence": 0.93,
+    "reason": "The paper develops an agentic vision-language model for search-based visual reasoning with reinforcement-learned tool use.",
+    "category_source": "codex"
+  },
+  {
+    "index": 25,
+    "title": "REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting",
+    "authors": [
+      "Di Wu",
+      "Liu Liu",
+      "Anran Huang",
+      "Yuyan Liu",
+      "Qiaojun Yu",
+      "Shaofan Liu",
+      "Liangtu Song",
+      "Cewu Lu"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_REArtGS_Generalizable_Articulation_Reconstruction_with_Temporal_Geometry_Constraint_via_Planar_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_REArtGS_Generalizable_Articulation_Reconstruction_with_Temporal_Geometry_Constraint_via_Planar_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Wu_REArtGS_Generalizable_Articulation_CVPR_2026_supplemental.pdf",
+    "pages": "1177-1186",
+    "bibtex": "@InProceedings{Wu_2026_CVPR,\n    author    = {Wu, Di and Liu, Liu and Huang, Anran and Liu, Yuyan and Yu, Qiaojun and Liu, Shaofan and Song, Liangtu and Lu, Cewu},\n    title     = {REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {1177-1186}\n}",
+    "primary_category": "3D from multi-view and sensors",
+    "secondary_categories": [
+      "Computer Vision for Robotics",
+      "Vision + graphics"
+    ],
+    "confidence": 0.87,
+    "reason": "다중 뷰 RGB 기반 articulated object의 3D 표면 재구성과 joint parameter 추정을 다루는 논문입니다.",
+    "category_source": "codex"
+  },
+  {
+    "index": 26,
+    "title": "Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization",
+    "authors": [
+      "Chenwei Jia",
+      "Baoting Li",
+      "Xuchong Zhang",
+      "Mingzhuo Wei",
+      "Bochen Lin",
+      "Hongbin Sun"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Quant_Experts_Token-aware_Adaptive_Error_Reconstruction_with_Mixture_of_Experts_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_Quant_Experts_Token-aware_Adaptive_Error_Reconstruction_with_Mixture_of_Experts_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jia_Quant_Experts_Token-aware_CVPR_2026_supplemental.pdf",
+    "pages": "24716-24726",
+    "bibtex": "@InProceedings{Jia_2026_CVPR,\n    author    = {Jia, Chenwei and Li, Baoting and Zhang, Xuchong and Wei, Mingzhuo and Lin, Bochen and Sun, Hongbin},\n    title     = {Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {24716-24726}\n}",
+    "primary_category": "Efficient and scalable vision",
+    "secondary_categories": [
+      "Multimodal learning",
+      "Deep learning architectures and techniques"
+    ],
+    "confidence": 0.87,
+    "reason": "The paper focuses on post-training quantization to reduce compute and memory costs for large vision-language models.",
+    "category_source": "codex"
+  },
+  {
+    "index": 27,
+    "title": "Efficient and High-Fidelity Omni Modality Retrieval",
+    "authors": [
+      "Chuong Huynh",
+      "Manh Luong",
+      "Abhinav Shrivastava"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huynh_Efficient_and_High-Fidelity_Omni_Modality_Retrieval_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huynh_Efficient_and_High-Fidelity_Omni_Modality_Retrieval_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Huynh_Efficient_and_High-Fidelity_CVPR_2026_supplemental.pdf",
+    "pages": "8770-8780",
+    "bibtex": "@InProceedings{Huynh_2026_CVPR,\n    author    = {Huynh, Chuong and Luong, Manh and Shrivastava, Abhinav},\n    title     = {Efficient and High-Fidelity Omni Modality Retrieval},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {8770-8780}\n}",
+    "primary_category": "Multimodal learning",
+    "secondary_categories": [
+      "Recognition: Categorization, detection, retrieval",
+      "Efficient and scalable vision"
+    ],
+    "confidence": 0.89,
+    "reason": "The paper proposes an efficient text-vision-audio multimodal retrieval model and benchmarks it across retrieval tasks.",
+    "category_source": "codex"
+  },
+  {
+    "index": 28,
+    "title": "SynCLIP: Synonym-Coherent Language-Image Pretraining for Robust Open-Vocabulary Dense Perception",
+    "authors": [
+      "Mingjie Xie",
+      "Guangjun He",
+      "Dongli Xu",
+      "Youtian Lin",
+      "Hongjue Li",
+      "Pengming Feng",
+      "Jian Guan",
+      "Yue Deng"
+    ],
+    "html_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_SynCLIP_Synonym-Coherent_Language-Image_Pretraining_for_Robust_Open-Vocabulary_Dense_Perception_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xie_SynCLIP_Synonym-Coherent_Language-Image_Pretraining_for_Robust_Open-Vocabulary_Dense_Perception_CVPR_2026_paper.pdf",
+    "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Xie_SynCLIP_Synonym-Coherent_Language-Image_CVPR_2026_supplemental.pdf",
+    "pages": "31524-31533",
+    "bibtex": "@InProceedings{Xie_2026_CVPR,\n    author    = {Xie, Mingjie and He, Guangjun and Xu, Dongli and Lin, Youtian and Li, Hongjue and Feng, Pengming and Guan, Jian and Deng, Yue},\n    title     = {SynCLIP: Synonym-Coherent Language-Image Pretraining for Robust Open-Vocabulary Dense Perception},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2026},\n    pages     = {31524-31533}\n}",
+    "primary_category": "Multimodal learning",
+    "secondary_categories": [
+      "Vision, language, and reasoning",
+      "Segmentation, grouping and shape analysis"
+    ],
+    "confidence": 0.86,
+    "reason": "The paper proposes CLIP-style language-image pretraining for robust open-vocabulary dense perception and grounding.",
+    "category_source": "codex"
+  }
+]

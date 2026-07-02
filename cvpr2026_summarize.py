@@ -674,6 +674,7 @@ def build_category_index(args: argparse.Namespace) -> list[dict[str, Any]]:
     if not args.all:
         selected = selected[: args.limit]
 
+    args.categories_path.parent.mkdir(parents=True, exist_ok=True)
     updated = dict(existing)
     for paper in selected:
         index = int(paper["index"])
@@ -682,11 +683,12 @@ def build_category_index(args: argparse.Namespace) -> list[dict[str, Any]]:
             continue
         print(f"classifying #{index}: {paper['title']}", flush=True)
         updated[index] = classify_paper(paper, args)
+        rows = [updated[index] for index in sorted(updated)]
+        args.categories_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
         if args.sleep:
             time.sleep(args.sleep)
 
     rows = [updated[index] for index in sorted(updated)]
-    args.categories_path.parent.mkdir(parents=True, exist_ok=True)
     args.categories_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
     return rows
 
